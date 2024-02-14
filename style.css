@@ -1,3 +1,5 @@
+@import url(./STYLE/xs.css);
+@import url(./STYLE/md.css);
 * {
   margin: 0;
   padding: 0;
@@ -232,9 +234,7 @@ body {
   padding: 7rem 8rem;
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.16);
 }
-.about__users-1col,
-.about__users-2col,
-.about__users-3col {
+.about_users > div {
   display: flex;
   align-items: center;
   gap: calc(var(--default--padding) / 2);
@@ -462,8 +462,9 @@ body {
 }
 .Testimonials_icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10rem;
 }
 .Testimonials_icons-dir {
   display: flex;
@@ -542,3 +543,10 @@ body {
   text-decoration: underline;
 }
 /*end footer*/
+
+/* 
+  600 px
+  768px 
+  992px 
+  1200 px 
+*/
